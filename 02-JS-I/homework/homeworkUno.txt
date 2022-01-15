@@ -1,0 +1,53 @@
+                                          Solucion del homework introduccion a JS
+
+    VARIABLES
+
+>>> Una variable se utiliza para guardar cosas como numeros, nombres, en general objetos
+    que luego podremos utilizar es decir transformarlos, desecharlos, mejorarlos, cambiarlos por otro, etc.
+    Para lograr ello hay que ponerle un nombre unico asi poder identificarlo.
+   
+   STRING
+
+>>> Un String es basicamente union de caracteres sean numeros, letras, simbolos, identificados por estar
+    entre comillas sean dobles o simples.
+
+    FUNCIONES
+
+>>> Usan las VARIABLES para construir cosas mas complejas como hacer una SUMA o mostrar informacion de 
+    una persona como su Nombre, Direccion, Profesion, etc. Tambien se comportan como las VARIABLES en
+    el sentido que tienen un nombre unico y se puede acceder a ellas con este nombre y utilizarlas en 
+    el momento que las necesitamos.
+
+    ARGUMENTOS
+
+>>> Basicamente son parametros con los cuales la funcion ejecuta alguna accion, pueden ser VARIABLES o 
+    CONSTANTES o algun otro tipo de dato que necesite la funcion para ofrecer el resultado que se busca.
+
+    RETURN
+
+>>> Es una palabra clave utilizada para mostrar el resultado de lo que la FUNCION esta destinada a resolver.
+    este resultado puede ser visualizado o reutilizado en otra FUNCION como ARGUMENTO por ejemplo.
+
+    DECLARACION
+
+>>> Es basicamente decirle al interprete de que forma vamos a utilizar las VARIABLES, CONSTANTES, TIPOS DE 
+    DATOS, Y DEMAS OBJETOS. de manera que no nos devuelva errores a la hora de hacer los programas. y en el 
+    caso del RETURN asegurarnos de obtener el objetivo de la construccion de una FUNCION.
+
+    IF
+
+>>> Es una palabra clave utilizada para determinar un camino a seguir dependiendo si es VERDAD O FALSO,
+    es un operador logico de decicion en teoria. en otras palabras funciona como un interruptor de alumbrado
+    presionas una posicion y prende, y presionas la otra y apagas.
+
+    VALORES BOOLEANOS
+
+>>> Son aquellos valores que puede tomar una VARIABLE como por ejemplo TRUE o FALSE, prendido o apagado
+    1 o 0 , solo puede tomar uno de ellos nunca los dos, usados en matematica booleana, binaria, electronica
+    etc.
+
+    TRUE and FALSE
+
+>>> Es basicamente verdad, o falsedad, usados para determinar si las EXPRESIONES o SENTENCIAS son verdaderas o
+    falsas. o evaluar comparaciones entre objetos.
+
