@@ -8,7 +8,7 @@
    
    STRING
 
->>> Un String es basicamente union de caracteres sean numeros, letras, simbolos, identificados por estar
+>>> Un String es basicamente union de caracteres sean numeros, letras, espacios, simbolo, identificados por estar
     entre comillas sean dobles o simples.
 
     FUNCIONES
