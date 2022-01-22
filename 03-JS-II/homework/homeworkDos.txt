@@ -1,0 +1,40 @@
+                         Solucion para el Homework 03-JS-II
+
+    BUCLE FOR
+
+>>>Los programas de una computadora, Pc, ordenador, laptop, etc, (Software), necesitan ejecutar acciones que se repiten
+   muchas veces, o almenos una vez. Estas acciones necesitan ser activadas luego decirles cuanto tiempo haran una tarea
+   y finalmente decir cuando terminara, lo utilizamos comunmente para obtener un resultado del tipo que sea. en lenguaje
+   JS se tienen incorporadas estas acciones una de ellas se conoce como for, que es una palabra clave. su sintaxis :
+
+   for (let i =0; i<=10; i++){
+   //Aqui debe ir el cuerpo es decir lo que debe hacer y una salida
+    console.log(i); // Esta es una salida tipica. 
+   } 
+
+   Basicamente funciona de esta manera: se declara una variable i que inicia en 0, puede iniciar en otro numero tambien
+   luego del ;  a esta variable i se le establece una condicion que marca sus limites es decir desde 0 hasta menor igual
+   a 10 luego ; a esta variable i se le asigna un incremento con el ++ que indica su crecimiento de uno en uno, el cual 
+   tiene efecto cada vez que termine de hacer la tarea descrita en el cuerpo.
+
+   OPERADOR LOGICO &&
+
+>>>Este operador logico conocido como "AND" "Y", basicamente realiza una operacion entre dos valores, dos tipos, etc
+   los compara y devuelve un valor Booleano (true or false) (verdadero o falso). Su funcionamiento logico es como :
+   Basta que un valor sea falso para que devuelva falso, caso contrario devuelve verdadero.
+
+   OPERADOR LOGICO ||
+
+>>>Este operador logico conocido como "OR" "o", basicamente realiza una operacion entre dos valores, dos tipos, etc
+   los compara y devuelve un valor Booleano (true or false) (verdadero o falso). Su funcionamiento logico es como :
+   Basta que un valor sea verdad para que devuelva verdad, caso contrario devuelve falso.
+
+   OPERADOR LOGICO !
+
+>>>Este operador logico conocido como "NOT" "no", basicamente realiza una operacion sobre un valor, tipo, etc
+   invierte el valor Booleano y tambien invierte la veracidad de un valor no Booleano. su funcionamiento logico
+   es como: si el valor es true, el valor de !true es, no true es decir false. esto aplica a diferntes tipos.
+   si i = ( 4 > 2); // es true.
+   entonces !i;  es decir !( 4 > 2); // es false.
+
+   
