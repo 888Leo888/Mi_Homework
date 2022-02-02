@@ -1,0 +1,51 @@
+                              Solucion para el homework 04-JS-III
+    ARRAYS
+
+>>> Los arrays son un tipo de datos especial se comporta como una variable al almacenar datos
+    pero ademas estos pueden ser de diferentes tipos entre si. En otras palabras un array puede
+    ser comprendido como una caja de cajas en las cuales guardar informacion como pueden ser 
+    numeros, cadenas de texto, booleanos, otras matrices, inclusive funciones, etc.
+    
+    Se crean usando los [] corchetes y asignando antes un nombre y pueden ser let o const.
+    tiene la propiedad .length para saber cuantos elementos tiene es decir su longitud.
+    A demas su caracteristica mas notoria es que sus elementos estan ordenados y cada 
+    uno de estos elementos tiene un indice que inicia en 0. para tener una comprension
+    mejor si el array es :
+
+    const newArray = ['juan', 1, true, null];
+
+    // Para saber su numero de elementos se usa el nombre del array y la propiedad .length
+    // Logueamos hacia la consola para visualizar la cantidad de elementos o longitud del array.
+
+    console.log(newArray.length); // Salida : 4
+
+    // Si lo que queremos es acceder a un elemento del array y verlo en la consola escribimos 
+    // Dentro de log esta el nombre del array y entre corchetes el indice del elemento a mostrar.
+
+    console.log(newArray[0]); // Salida : juan
+    console.log(newArray[2]); // Salida : true
+
+    Como ya se vio los arrays pueden contener diferentes tipos de elementos , mostraremos por
+    ejemplo una array anidado y como ver sus elementos dentro de el mismo :
+
+    const newArray = ['Juan', [1, 2, 3], true];
+
+    // Acceder a los elementos del array principal escribimos :
+    // Aqui vemos que se utiliza un solo corchete.
+
+     console.log(newArray[1]); // Salida : [1, 2, 3] 
+
+   // Acceder a los elementos del array secundario escribimos :
+   // Aqui en cambio se utilizan dos corchetes.
+   // El primer corchete nos indica el elemento del array principal mientras que el segundo nos
+   // indicara el elemento interno del array secundario.
+    console.log(newArray[1][1]); //  2
+
+    Otro particular de los array son los metodos conocidos .push() y .pop() los cuales afectan
+    a los arrays mutando su composicion inicial es decir lo cambia tanto aumentando y/o disminuyendo
+    sus elementos y con esto cambiando su longitud. estos trabajan con el ultimo elemento del array.
+    Tambien hay los que trabajan de forma similar con el primer elemento .shift() y .unshift() ademas
+    de otros como .join(), .slice(), .splice(), .contac(), entre otros. tambien cabe hacer una 
+    diferencia entre metodos que mutan y no mutan los arrays.
+
+    
