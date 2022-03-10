@@ -1,0 +1,76 @@
+                       Solucion para el homework 05-JS-IV
+    OBJETOS
+
+>>> Imaginemos una caja que contiene un samrthphone en la cual por fuera vienen descritas todas las caracteristicas que este posee
+    como por ejemplo el mmodelo la marca sus dimensiones color memoria etc. podemos decir que el objeto caja puede contener  
+    cualquier cosa pero siempre tendra las principales caracteristicas descritas en una etiqueta, que explica  lo que contiene.
+
+    PROPIEDADES
+
+>>> En cuanto a las caracteristicas estas vienen descritas en pares es decir modelo : X-20 Plus por ejemplo aqui modelo se le 
+    conoce como key (llave o clave) y X-20 Plus es el value (valor) que toma el key o clave, podemos notar que cambiara de  
+    acuerdo al contenido que la caja (objeto en este caso).
+
+    METODOS
+
+>>> En nuestro ejemplo del smarthphone el metodo podria describirse como la forma de acceder al funcionamiento del telefono
+    al encenderlo aparece el logo de la marca y la bienvenida. esta funcion esta definida al presionar el boton de encendido.
+    para nuestro ejemplo el objeto se veria asi :
+
+    EJEMPLO DE OBJETO
+
+>>> //Ejemplo de un objeto en JavaScript
+    
+    const smarthPhone = {
+     
+     modelo : 'X-20 Plus',
+     marca  : 'STARKS',
+     dimensiones : '140 x 70 mmm',
+     color  : 'Dorado'
+    
+   }; // Para acceder a las propiedades tenmos una notacion especial sea de punto y/o corchete.
+      // Por ejemplo :
+
+      smarthPhone.modelo;     //  esta forma dot notation.
+      smarthPhone['modelo'];  // esta forma bracket notation.
+
+    BUCLE FOR...IN
+
+>>> Basicamente es un recorrido por todas las caracteristicas que en nuestro ejemplo seria la etiqueta como leerla desde la 
+    primera linea que aparece hasta el final. Para recorrer nuestro ejemplo tenemos:
+
+    EJEMPLO DE BUCLE FOR...IN
+
+>>> //Ejemplo de uso del bucle for...in loop
+    
+    for ( let propiedad in smarthPhone ) {
+
+       console.log( propiedad );
+       console.log( usuario[ propiedad ];
+
+    } // lo que ejecuta el for para cada una de las propiedades es su nombre y a continuacion su valor en lineas diferentes
+      // la salida nos mostraria :
+
+     /* modelo
+        X-20 Plus
+	marca
+	STARKS
+	dimensiones
+	140 x 70 mm
+	color
+	Dorado */
+
+    BRACKET NOTATION VS DOT NOTATION
+
+>>> En el ejemplo anterior del objeto smarthPhone usamos dor formas de acceder a las propiedades notacion de puntos y notacion de 
+    corchetes, en la primera de puntos nos recuerda cuando usamos console.log estamos accediendo a la propiedad log de console.
+    en el caso de la segunda de corchetes nos recuerda cuando hacemos un recorrido por los indices de una matriz, con la salvedad
+    se escribe la propiedad entre comillas simples.
+    
+
+>>> :)    
+
+
+
+
+
