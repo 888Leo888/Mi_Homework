@@ -1,0 +1,38 @@
+                       Solucion para el homework 06-JS-V
+
+    PROTOTYPE
+  
+>>> Un prototipo (Prototype) es un molde, es decir nos ahorra tiempo y memoria pues si necesitamos crear objetos de similares
+    caracteristica bastaria hacer un prototipo  y luego cambiar lo que necesitemos por ejemplo hariamos una plantilla o 
+    prototipo de un auto luego usariamos esta plantilla para crear un auto rojo un auto para la luna un auto acuatico etc.
+
+    CONSTRUCTORES (DE CLASE)
+
+>>> Un constructor en palabras simples  es una funcion con caracteristicas de los ojetos es decir las propiedades y con metodos
+    internos otras funciones que se pueden compartir instanciar usar respetando las reglas para su construccion y utilizando 
+    las palabras claves para su creacion y para las diferentes formas de interactuar con el objeto y sus propiedades.
+
+    EJEMPLO UNIFICADO DE LOS CONCEPTOS ANTERIORES
+
+>>> function User (name, github) { // se crea una funcion user que recibe dos parametros
+    
+      this.name = name; // this es como un comodin para que el prototipo puesa ingresar al valor name y githb.
+      this.github = github;
+
+    }
+
+    User.prototype.introduccion = function () { // se crea el prototipo que retorna un saludo y el cual usara los parametros de user
+
+        return `Mi nombre es ${this.nombre} , Mi usuario es ${this.github} .`
+
+     } 
+
+     let juan = new User ('Juan', 'juan.code'); // se usa la palabra clave new y la funcion User que a su vez usa el prototipo para crear
+     let antonio = new User ('Antonio, 'antonio.code'); // un nuevo saludo personalizado con los parametros ingresados.
+
+     cosole.log(juan.introduccion()); // aqui se puede visualizar por consola al invocar directamente el prototipo desde introduccion.
+                                      // la salida : Mi nombre es Juan , Mi usuario es juan.code.
+
+     console.log(antonio.introduccion());// de forma similar la salida : Mi nombre es Antonio , Mi usuario es antonio.code.
+
+>>> ;)     
