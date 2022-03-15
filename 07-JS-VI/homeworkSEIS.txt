@@ -1,0 +1,57 @@
+                     SOLUCION PARA WORKHOME 07-JS-VI
+
+    FUNCIONES CALLBACK
+
+>>> Las funciones callback se utilizan como argumento o parametro para otra funcion en esencia la forma de llamarlas
+    es omitiendo los parentesis que si se colocan nos da un error, para entender mejor como funcionan un ejemplo :
+
+    EJEMPLO 1
+
+>>> // Creamos una funcion cualquiera
+
+       function saludo(usuario) {
+
+             return `Hola ${usuario} !`;
+       } 
+
+   // Ahora creamos a la funcion que usa el callback
+
+      function ejecutarSaludo (usuario, saludo) {
+
+            return saludo (usuario);
+      } 
+
+   // A continuacion mostramos dos formas de invocar
+
+      console.log(ejecutarSaludo ("Juan", saludo));  // Esta es la forma correcta devolvera : hola Juan!
+      conmsole.log(ejecutarSaludo ("Juan", saludo())); // Esta es la forma incorrecta devolvera Algun tipo de error.
+
+      EJEMPLO 2
+
+>>> // En esta ocacion usaremos .filter(), para mostrar Metodos de Orden Superio que hacen uso de los Callbacks
+
+    // Construimos un Array sobre el cual usar .filter() 
+
+       const words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door', 'code', 'henry']; // words es un array de palabras
+
+   // Aqui construiremos nuestro Callback
+
+      const shortWords = words.filter ( word => {
+
+           return word.length < 6;
+
+      }); // shortWords es una variable que  guardara todo lo que ejecute words.filter() sobre el Array
+          // la funcion callback es una Arrow Function con un parametro simple llamado word. Cabe notar que cada elemento de 
+	  // nuestro Array words sera pasado por nuestra funcion ( words.filter() ) como un argumento.
+	  // Por ultimo la condicion word.length < 6, cualquier palabra menor de 6 caracteres sera agregada a nuestra variable
+	  // shortWords que tambien sera un Array.
+
+
+    // Luego pediremos que nos muestre por pantalla el Array original y el Array generado por .filter().
+
+       console.log (words); // Muestra : ['chair', 'music', 'pillow', 'brick', 'pen', 'door', 'code', 'henry]
+       console.log (shortWords); // Muestra : ['chair', 'music', 'brick', 'pen', 'door', 'code', 'henry'] 
+
+       Nota: cabe destacar que el Array original no sufrio ningun cambio y el segundo es un Array nuevo y diferente.
+
+
