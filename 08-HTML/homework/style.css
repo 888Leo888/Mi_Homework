@@ -1,0 +1,75 @@
+    
+
+    title {
+      display: flex;
+      justify-content: center;
+    }
+
+    h1 {
+      color: purple;
+      display: flex;
+      justify-content: center;
+    }
+
+    h3{
+      display: flex;
+      justify-content: center;
+    }
+
+    h4{
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      width: 330px;
+      height: 250px;
+      padding-right: 45px;
+    }
+
+    #thirdDiv {
+      height: 400px;
+      width: 400px;
+      background: gray;
+      padding: 5px;
+      border: 10px solid orange;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 330px;
+      right: 450px;
+
+    }
+
+    #spanId {
+      font-size: 18px;
+      margin: 50px;
+      display: flex;
+      justify-content: center;
+    }
+
+    body {
+      background-image: url("https://static.miscota.com/media/1/photos/products/074732/74732-3d_1_g.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+
+    a {
+      color: blue;
+      display: flex;
+      justify-content: center;
+    }
+
+    ul {
+      position: absolute;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+      position:relative;
+      left: 80px;
+    }
+                 
